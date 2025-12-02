@@ -1,0 +1,103 @@
+header{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 180%;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  background-color: lightyellow;
+  padding: 1rem;
+  border-radius: 3rem;
+  font-size: 90%;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a{
+  padding: .25rem .25rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: yellow;
+  border-radius: 3rem;
+  color:brown;
+}
+
+.logo{
+  float: right;
+  padding: .75rem;
+}
+
+main{
+  font-size: 150%;
+  line-height: 1.4rem;
+  padding: 1rem;
+  font-family:'Times New Roman', Times, serif;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: lightyellow;
+  color: blue;
+  margin: 1rem;
+}
+
+.founder{
+  float: right;
+  padding: .75rem;
+}
+
+h1{
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem;
+  font-size: 180%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+  color:blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+}
+
+.sentance{
+  font-size: 75%;
+}
+
+.specific{
+  font-size: 80%;
+}
+
+h3{
+  font-size: 95%;
+  color:rgb(164, 111, 43)
+}
+
+.words{
+  font-size: 75%;
+}
+
+img{
+  max-width: 100%;
+  border: 5px solid white;
+  box-shadow: 2px 2px 7px black;
+}
